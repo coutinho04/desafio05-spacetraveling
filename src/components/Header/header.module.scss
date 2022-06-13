@@ -1,1 +1,15 @@
-// TODO
+.headerContainer {
+    height: 105px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.logoContainer {
+    grid-area: 1 / 2 / 2 / 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

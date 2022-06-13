@@ -1,1 +1,46 @@
-// TODO
+.container {
+    img {
+        display: block;
+        height: 400px;
+        margin: 0 auto;
+    }
+}
+
+.postInfo {
+    display: flex;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    margin-bottom: 64px;
+
+    div:nth-child(-n+2) {
+        margin-right: 20px;
+    }
+
+    svg {
+        margin-right: 10px;
+    }
+}
+
+.post {
+    width: 50%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.625rem;
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        margin-bottom: 24px;
+    }
+
+
+    .postContent {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.625rem;
+        margin-bottom: 20px;
+    }
+}
